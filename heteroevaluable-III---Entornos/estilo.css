@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+#primera {
+    background: url(main.jpg);
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    
+   
+
+}
+
+
+.contenedor{
+    width:600px;
+    background:rgba(0, 0, 0, 0.247);
+    margin : 0 auto;
+    margin-top: 1%;
+    padding: 20px;
+    color:white;
+    text-align:center;
+    border-radius:50px;
+    
+   
+
+}
+
+.contenedor-img{
+    border-radius:50%;
+}
+
+.contenedor h1{
+    text-align:center;
+    font-size:30px;
+    letter-spacing:4px;
+    font-weight:80;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.contenedor p{
+text-align:justify;
+}
+
+.contenedor ul{
+    list-style:none;
+    margin-top:20px
+    
+}
+
+.contenedor ul li{
+    display:inline-block;
+}
+
+.contenedor ul li a{
+    font-size:45px;
+    padding:10px 5px;
+    color:azure;
+}
+
+.contenedor ul li a:hover{
+    color:rgb(1, 1, 1);
+}
+
+.menu{
+    margin-top:1%;
+    display:flex;
+   justify-content: center;
+    
+}
+
+.menu ul a{
+    text-decoration:none;
+    color:rgb(33, 32, 32);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    font-weight:600;
+    padding:10px;
+    
+}
+
+#segunda{
+    background-color:#efefef;
+    font-family:sans-serif;
+   
+}
+
+.contacto{
+    width:480px;
+    background-color: #fff;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    background-color:rgb(18, 180, 244);
+    border-radius:20px;
+    
+}
+
+form{
+    margin:35px;
+    
+  
+}
+
+.input-field{
+    width:400px;
+    height:40px;
+    margin-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid;
+    border-radius:20px;
+   
+}
+
+.texto{
+    height:150px;
+    padding-top:10px;
+
+}
+
+.boton{
+    border-radius:20px;
+   padding:10px;
+   border:none;
+   margin-top:12px;
+    
+
+}
+
+
+
+#tercera{
+    align-items:center;
+    min-height:100vh;
+    font-family:'Courier New', Courier, monospace;
+    background:url(third.jpg);
+    background-size:cover;
+
+}
+
+.servicios{
+    margin:0 auto;
+    width:1100px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top: 1%;
+    padding: 40px;
+    margin-top:5%;
+}
+
+.cuadrado{
+    position:relative;
+    width:320px;
+    background:rgb(150, 201, 246);
+    padding:100px 40px 60px;
+
+    
+}
+
+.menu1{
+    margin-top:1%;
+    display:flex;
+   justify-content: center;
+}
+
+.menu1 ul a {
+    
+    text-decoration:none;
+    color:rgb(33, 32, 32);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    font-weight:600;
+    padding:10px;
+    
+}
+
+a:hover{
+    background-color:rgb(0, 244, 244);
+    
+   
+}
